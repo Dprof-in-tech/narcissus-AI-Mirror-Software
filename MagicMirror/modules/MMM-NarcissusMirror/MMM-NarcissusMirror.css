@@ -1,0 +1,36 @@
+.narcissus-mirror-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    /* Base layer, widgets are usually higher */
+    background: black;
+    /* Default to black if video missing */
+    overflow: hidden;
+}
+
+#narcissus-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    /* Ensures filling the screen */
+    transform: translate(-50%, -50%) scaleX(-1);
+    /* Center and Flip */
+    z-index: 1;
+}
+
+/* Ensure the module container doesn't restrict us */
+.module.MMM-NarcissusMirror {
+    background-color: black !important;
+    opacity: 0.6 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: none !important;
+    width: 100% !important;
+    height: 100% !important;
+}

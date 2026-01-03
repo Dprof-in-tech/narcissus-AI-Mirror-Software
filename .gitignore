@@ -1,0 +1,12 @@
+**/__pycache__/
+**/*.pyc
+**/venv/
+**/venv-310/
+**/venv-311/
+.DS_Store
+**/build/
+**/dist/
+**/*.spec
+.env
+node_modules/
+**/node_modules/
