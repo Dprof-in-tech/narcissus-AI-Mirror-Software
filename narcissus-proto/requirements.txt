@@ -1,0 +1,10 @@
+opencv-python
+mediapipe
+numpy
+requests
+flask
+SpeechRecognition
+pyaudio
+screen-brightness-control
+ollama
+duckduckgo-search
